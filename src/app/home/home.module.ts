@@ -6,6 +6,8 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { MalagaDescriptionComponent } from '../components/malaga-description/malaga-description.component';
+import { MalagaInformationComponent } from '../components/malaga-information/malaga-information.component';
+import { MalagaImageComponent } from '../components/malaga-image/malaga-image.component';
 
 
 @NgModule({
@@ -15,6 +17,10 @@ import { MalagaDescriptionComponent } from '../components/malaga-description/mal
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, MalagaDescriptionComponent]
+  declarations: [
+    HomePage,
+    MalagaDescriptionComponent,
+    MalagaImageComponent,
+    MalagaInformationComponent]
 })
 export class HomePageModule {}
